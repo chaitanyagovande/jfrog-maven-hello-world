@@ -1,0 +1,11 @@
+version: 1
+type: maven
+resolver:
+    serverId: pscloud-useast
+    snapshotRepo: cg-lab-libs-snapshot
+    releaseRepo: cg-lab-libs-release
+deployer:
+    serverId: pscloud-useast
+    snapshotRepo: cg-lab-libs-snapshot
+    releaseRepo: cg-lab-libs-release
+useWrapper: false

@@ -72,4 +72,42 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>b0xeshamxrwqo-artifactory-primary-0-releases</name>
+        <url>https://psazuse.jfrog.io/artifactory/cg-lab-libs-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>b0xeshamxrwqo-artifactory-primary-0-snapshots</name>
+        <url>https://psazuse.jfrog.io/artifactory/cg-lab-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+
+ <!--
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>b0xeshamxrwqo-artifactory-primary-0-snapshots</name>
+        <url>https://psazuse.jfrog.io/artifactory/cg-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+-->
+
+<!--
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Docker-releases</name>
+        <url>https://support-team-aaronc-docker-0.jfrog.farm:443/artifactory/cg-lab-op-libs-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Docker-snapshots</name>
+        <url>https://support-team-aaronc-docker-0.jfrog.farm:443/artifactory/cg-lab-op-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+-->
+
 </project>
