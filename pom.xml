@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.jfrog</groupId>
+  <groupId>com.chaitanyag</groupId>
   <artifactId>my-jfrog-app</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -85,29 +85,5 @@
     </snapshotRepository>
 </distributionManagement>
 
- <!--
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>b0xeshamxrwqo-artifactory-primary-0-snapshots</name>
-        <url>https://psazuse.jfrog.io/artifactory/cg-libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
--->
-
-<!--
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Docker-releases</name>
-        <url>https://support-team-aaronc-docker-0.jfrog.farm:443/artifactory/cg-lab-op-libs-snapshot</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Docker-snapshots</name>
-        <url>https://support-team-aaronc-docker-0.jfrog.farm:443/artifactory/cg-lab-op-libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
--->
 
 </project>
